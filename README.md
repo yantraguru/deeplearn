@@ -8,7 +8,7 @@
 
 ## 02. **First Neural Networks**
 1. How to train a simple neural net to classify cap vs shoes?
- [Notebook](./2_Deep learning to classify caps vs shoes.ipynb)
+ [Notebook](./2_Deep_learning_to_classify_caps_vs_shoes.ipynb)
 
 ## 99. **Utilities**
 1. How to load images from disk into numerical arrays for deep learning [Notebook](./Load_Image_files_into_numerical_array_like_Data_Generator.ipynb)
