@@ -6,7 +6,7 @@
 2. How to validate learning and When to stop the learning process? [Notebook](./1_neuron_network_validation_and_early_stopping.ipynb)
 3. How stacking multiple non-linear neurons can learn any complex function? [Notebook](./1_neuron_vs_layer_of_many_for_guessing_complex_functions.ipynb)
 
-## 02. **First Neural Networks**
+## 02. **First Neural Network - Caps vs Shoes**
 1. How to train a simple neural net to classify cap vs shoes?
  [Notebook](./2_Deep_learning_to_classify_caps_vs_shoes.ipynb)
 2. What weights and activations learnt by neural network? [Notebook](./2_Weights_learned_in_deep_learning_network.ipynb)
