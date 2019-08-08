@@ -11,6 +11,8 @@
  [Notebook](./2_Deep_learning_to_classify_caps_vs_shoes.ipynb)
 2. What weights and activations learnt by neural network? [Notebook](./2_Weights_learned_in_deep_learning_network.ipynb)
 3. Can we learn to distinguish cap vs shoes with single hidden layer? How many neurons? [Notebook](./2_Single_hidden_layer_caps_vs_shoes.ipynb)
+4. How to augument data for deep learning taining? [Python Code] (./generate_augmented_data.py)
+5. How to use augmented data using Keras ImageDataGenerator [Notebook] (./2_Training_with_data_augmentation.ipynb)
 
 ## 99. **Utilities**
 1. How to load images from disk into numerical arrays for deep learning [Notebook](./Load_Image_files_into_numerical_array_like_Data_Generator.ipynb)
