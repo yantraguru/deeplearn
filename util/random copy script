@@ -9,3 +9,4 @@ shuf -zn8 -e *.jpg | xargs -0 cp -vt target/
 
 #shuf -zn25 -e *.jpeg | xargs -0 mv -vt ./../data/caps\ and\ shoes/test/shoes
 
+
