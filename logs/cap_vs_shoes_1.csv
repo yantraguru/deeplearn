@@ -1,15 +1,17 @@
 ID,Name,Description,Test Accuracy,Test Accuracy Std Dev,AUC,Epochs,Training time (s),Training Parameteres
-1,Caps and Shoes two layer network,"200 images, 50 test images, 112*112 resized, full batch gradient descent , [32 x 16 Relu]",0.7000,,0.78,100,2.84,402002
-2,Caps and Shoes single layer network,"200 images, 50 test images, 112*112 resized, full batch gradient descent, various no of neurons in a single layer, neurons = 16/32/64 [32 relu]",0.7200,,,125,1.5,401506
+1,Caps and Shoes two layer network,"200 images, 50 test images, 112*112 resized, full batch gradient descent , [32 x 16 Relu]",0.7,,0.78,100,2.84,402002
+2,Caps and Shoes single layer network,"200 images, 50 test images, 112*112 resized, full batch gradient descent, various no of neurons in a single layer, neurons = 16/32/64 [32 relu]",0.72,,,125,1.5,401506
 3,Data Augmentation two layer network,"Data augmented, 421 images, 50 test images, 112*112 resized, full batch gradient descent    [rotation_range=20,
 		             width_shift_range=0.1,
 			     height_shift_range=0.1,
-			     horizontal_flip=True] [32 x 16 Relu]",0.7440,0.07,,125,2.058,402002
+			     horizontal_flip=True] [32 x 16 Relu]",0.744,0.07,,125,2.058,402002
 4,Data Augmentation single layer network,"Data augmented, 421 images, 50 test images, 112*112 resized, full batch gradient descent     [rotation_range=20,
 		             width_shift_range=0.1,
 			     height_shift_range=0.1,
-			     horizontal_flip=True] [32 Relu]",0.7160,0.1,,125,2.04,401506
+			     horizontal_flip=True] [32 Relu]",0.716,0.1,,125,2.04,401506
 5,Adding More data two layer network,"More data created, 2336 images, 330 images,  112*112 resized, [32 x 16 Relu], Mini batch Gradient Descent, batch 32",0.7833,0.04,0.88,60,9.958,402002
 6,Adding More data single layer network,"More data created, 2336 images, 330 images,  112*112 resized, [32 Relu], Mini batch Gradient Descent, batch 32",0.7797,0.04,,60,9.017,401506
-7,"Resize images to 28*28, single layer network","2336 images, 330 images,  28*28 resized, [32 Relu], Mini batch Gradient Descent, batch 32",0.7970,0.03,0.90,60,6.182,25186
-8,Cleaning data Manually,"Some images were rearranged. 2301 images, 327 images,  28*28 resized, [32 Relu], Mini batch Gradient Descent, batch 32",0.7988,0.03,0.90,60,6.075,25186
+7,"Resize images to 28*28, single layer network","2336 images, 330 images,  28*28 resized, [32 Relu], Mini batch Gradient Descent, batch 32",0.797,0.03,0.9,60,6.182,25186
+8,Cleaning data Manually,"Some images were rearranged. 2301 images, 327 images,  28*28 resized, [32 Relu], Mini batch Gradient Descent, batch 32",0.7988,0.03,0.9,60,6.075,25186
+9,3 Layers model with squared images,"2299 images, 327 test images, 28*28 resized, [64*32*16 Relu],Mini batch Gradient Descent, batch 32",0.8422,0.02,,250,30.12,52882
+10,3 Layers model cross validation,"2299 images, 327 test images, 28*28 resized, [64*32*16 Relu],Mini batch Gradient Descent, batch 32 – First validate on partial train data then on validation ",0.8477,0.01,,300,32.623,52882
