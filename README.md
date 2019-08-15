@@ -17,7 +17,10 @@
 7.Experiment with low resolution, Optimum network size, balance of data and network [Notebook](./2_Find_optimum_network_size_for_data.ipynb)
 8. Which multilayer model architecture to choose? [Notebook](./2_multilayer_models_with_smaller_resolutions.ipynb)
 9. How multilayer model performs with squared images? [Notebook](./2_multilayer_model_performance_with_squared_images.ipynb)
-10. Complete example with more data, optimum multilayer network, validation and data augmentation. [Notebook] (./2_complete_example_with_data_augmentation.ipynb)
+10. Complete example with more data, optimum multilayer network, validation and data augmentation. [Notebook](./2_complete_example_with_data_augmentation.ipynb)
+
+--- Log of all experiments and improvement of accuracy ---
+Experiment descriptions and log - [CSV](./../logs/cap_vs_shoes_1.csv)
 
 ## 99. **Utilities**
 1. How to load images from disk into numerical arrays for deep learning [Notebook](./Load_Image_files_into_numerical_array_like_Data_Generator.ipynb)
