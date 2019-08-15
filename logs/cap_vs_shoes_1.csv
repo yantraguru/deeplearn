@@ -15,3 +15,4 @@ ID,Name,Description,Test Accuracy,Test Accuracy Std Dev,AUC,Epochs,Training time
 8,Cleaning data Manually,"Some images were rearranged. 2301 images, 327 images,  28*28 resized, [32 Relu], Mini batch Gradient Descent, batch 32",0.7988,0.03,0.9,60,6.075,25186
 9,3 Layers model with squared images,"2299 images, 327 test images, 28*28 resized, [64*32*16 Relu],Mini batch Gradient Descent, batch 32",0.8422,0.02,,250,30.12,52882
 10,3 Layers model cross validation,"2299 images, 327 test images, 28*28 resized, [64*32*16 Relu],Mini batch Gradient Descent, batch 32 – First validate on partial train data then on validation ",0.8477,0.01,,300,32.623,52882
+11,Using keras Data Generator,"2299 images, 327 test images, 28*28 resized, [64*32*16 Relu],Mini batch Gradient Descent, batch 32 – First validate on partial train data then on validation ",0.8313,,0.91,165,990,52882
