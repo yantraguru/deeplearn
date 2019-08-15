@@ -20,10 +20,10 @@
 10. Complete example with more data, optimum multilayer network, validation and data augmentation. [Notebook](./2_complete_example_with_data_augmentation.ipynb)
 
 --- Log of all experiments and improvement of accuracy ---
-Experiment descriptions and log - [CSV](./../logs/cap_vs_shoes_1.csv)
+Experiment descriptions and log - [CSV](./logs/cap_vs_shoes_1.csv)
 
 ## 99. **Utilities**
 1. How to load images from disk into numerical arrays for deep learning [Notebook](./Load_Image_files_into_numerical_array_like_Data_Generator.ipynb)
 2. How to convert image into numerical representation [Notebook](./Convert_Image_to_numpy_array_for_deep_learning.ipynb)
-3. Center croping the images before resize [Code](./../util/center_crop.py)
+3. Center croping the images before resize [Code](./util/center_crop.py)
 
