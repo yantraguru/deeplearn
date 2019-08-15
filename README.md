@@ -1,5 +1,5 @@
 # deeplearn
-### Various experiments in Artificial neural networks and deep learning
+### Various experiments in Artificial neural networks and deep learning :+1:
 
 ## 01. **Basics**
 1. Can single neuron with no activation learn simple linear functions? [Notebook](./1_neuron_guessing_linear_functions.ipynb)
@@ -14,7 +14,7 @@
 4. How to augument data for deep learning taining? [Python Code](./generate_augmented_data.py)
 5. How to use augmented data using Keras ImageDataGenerator [Notebook](./2_Training_with_data_augmentation.ipynb)
 6. Add more data. How more data helps in increasing accuracy? [Notebook](./2_Learning_with_more_data.ipynb)
-7.Experiment with low resolution, Optimum network size, balance of data and network [Notebook](./2_Find_optimum_network_size_for_data.ipynb)
+7. Experiment with low resolution, Optimum network size, balance of data and network [Notebook](./2_Find_optimum_network_size_for_data.ipynb)
 8. Which multilayer model architecture to choose? [Notebook](./2_multilayer_models_with_smaller_resolutions.ipynb)
 9. How multilayer model performs with squared images? [Notebook](./2_multilayer_model_performance_with_squared_images.ipynb)
 10. Complete example with more data, optimum multilayer network, validation and data augmentation. [Notebook](./2_complete_example_with_data_augmentation.ipynb)
