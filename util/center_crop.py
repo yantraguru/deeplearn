@@ -4,8 +4,8 @@ import glob
 from pathlib import Path
 from PIL import Image
 
-src_dir = './../data/caps_and_shoes_extended/'
-dest_dir = './../data/caps_and_shoes_squared/'
+src_dir = './../data/caps_and_shoes_extended_2/'
+dest_dir = './../data/caps_and_shoes_squared_2/'
 
 def crop_center(pil_img, crop_width, crop_height):
     img_width, img_height = pil_img.size
@@ -33,7 +33,7 @@ for filetype in ['**/*.jpg','**/*.jpeg']:
                     print('Error count : %d // could not read %s'%(error_count,filename))
                     continue 
  	
-        if im.mode in ('RGBA'):
+        if im.mode in ('RGBA','P'):
             im = im.convert("RGB")
 
         im_crop = crop_max_square(im)
