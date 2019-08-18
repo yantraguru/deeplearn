@@ -13,7 +13,7 @@
 3. Can we learn to distinguish cap vs shoes with single hidden layer? How many neurons? [Notebook](./2_Single_hidden_layer_caps_vs_shoes.ipynb)
 4. How to augument data for deep learning taining? [Python Code](./generate_augmented_data.py)
 5. How to use augmented data using Keras ImageDataGenerator [Notebook](./2_Training_with_data_augmentation.ipynb)
-6. Add more data. How more data helps in increasing accuracy? [Notebook](./2_Learning_with_more_data.ipynb)
+6. Add more data. How much more data helps in increasing accuracy? [Notebook](./2_Learning_with_more_data.ipynb)
 7. Experiment with low resolution, Optimum network size, balance of data and network [Notebook](./2_Find_optimum_network_size_for_data.ipynb)
 8. Which multilayer model architecture to choose? [Notebook](./2_multilayer_models_with_smaller_resolutions.ipynb)
 9. How multilayer model performs with squared images? [Notebook](./2_multilayer_model_performance_with_squared_images.ipynb)
