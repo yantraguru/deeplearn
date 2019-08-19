@@ -18,6 +18,12 @@
 8. Which multilayer model architecture to choose? [Notebook](./2_multilayer_models_with_smaller_resolutions.ipynb)
 9. How multilayer model performs with squared images? [Notebook](./2_multilayer_model_performance_with_squared_images.ipynb)
 10. Complete example with more data, optimum multilayer network, validation and data augmentation. [Notebook](./2_complete_example_with_data_augmentation.ipynb)
+11. How to save keras deep learning model? [Notebook](./2_11_Saving_the_model.ipynb)
+12. Checking performance on unseen test data [Notebook](./2_12_Out_of_set_testing.ipynb)
+
+## 03. **Visualizing training tensorboard**
+1. How to visualize training process using tensorboard? [Notebook](./3_1_start_with_tensorboard.ipynb)
+2. How to check weight and bias at each epoch during training? [Notebook](./3_2_Weight_distribution_at_every_epoch.ipynb)
 
 --- Log of all experiments and improvement of accuracy ---
 Experiment descriptions and log - [CSV](./logs/cap_vs_shoes_1.csv)
