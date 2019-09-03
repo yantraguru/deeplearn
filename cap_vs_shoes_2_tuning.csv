@@ -1,12 +1,14 @@
-ID,Name,Description,Test Accuracy,Test Accuracy Std Dev,AUC,Epochs,Training time (s),Training Parameteres
-1,3 Layers model cross validation,"2299 images, 327 test images, 28*28 resized, [64*32*16 Relu],Mini batch Gradient Descent, batch 32 – First validate on partial train data then on validation ",0.8477,0.01,,300,32.623,52882
-2,Tuning learning rate,"1832 images, 327 test images, 28*28 resized, [64*32*16 Relu],Mini batch Gradient Descent, batch 32 – First validate on partial train data then on validation , lr = 0.0066",0.862,,,600,3413.5273,52882
-3,Learning rate decay per step,Decay 5.2e-5,0.8589,,,700,3982.5765,52882
-4,,,,,,,,
-5,,,,,,,,
-6,,,,,,,,
-7,,,,,,,,
-8,,,,,,,,
-9,,,,,,,,
-10,,,,,,,,
-11,,,,,,,,
+ID,Name,Description,Test Accuracy,Out of set Test Accuracy,Test Accuracy Std Dev,AUC,Epochs,Training time (s),Training Parameteres
+1,3 Layers model cross validation,"2299 images, 327 test images, 28*28 resized, [64*32*16 Relu],Mini batch Gradient Descent, batch 32 – First validate on partial train data then on validation ",0.8477,,0.01,,300,32.623,52882
+2,Tuning learning rate,"1832 images, 327 test images, 28*28 resized, [64*32*16 Relu],Mini batch Gradient Descent, batch 32 – First validate on partial train data then on validation , lr = 0.0066",0.862,,,,600,3413.5273,52882
+3,Learning rate decay per step,Decay 5.2e-5,0.8589,,,,700,3982.5765,52882
+4,Step Decay,"initial_lrate = 1e-2, drop = 0.921688, epochs_drop = 10.0, Batch Size =32",0.8712,0.8529143,0.047327776,,600,3399.5975,52882
+5,Exponential Decay,"initial_lrate = 1e-2,  k = 0.0081548, Batch Size = 32",0.8712,0.8229313,,,600,3395.0635,52882
+6,Static Learning Rate,Static Learning rate '0.009',0.8436,0.850497,0.06668169,,600,3394.544312,52882
+7,Static Learning Rate,Static Learning rate '0.003',0.8681,0.8408258,0.058858592,,600,3592.444955,52882
+8,Step Decay Learning schedule,"initial_lrate = 5e-2, drop = 0.599484, epochs_drop = 100",0.8528,0.8407,0.055,,600,3386.8478,52882
+9,Step Decay Learning schedule,"initial_lrate = 1e-2, drop = 0.864065, epochs_drop = 25",0.8712,0.8497,0.0489,,700,4063.7241,52882
+10,Step Decay with momentum,"initial_lrate = 1e-2, drop = 0.864065, epochs_drop = 25, momentum =0.5",0.8589,0.85611427,0.05358002,,700,3967.5021634,52882
+11,Step Decay with momentum,"initial_lrate = 1e-2, drop = 0.864065, epochs_drop = 25, momentum =0.9",0.8681,0.86716115,0.054970756,,700,3965.013071,52882
+12,Adding nestrov ,"initial_lrate = 1e-2, drop = 0.864065, epochs_drop = 25, momentum =0.5, nestrov = True",0.8712,0.8620605,0.051556397,,700,4039.04872,52882
+13,Adding nestrov ,"initial_lrate = 1e-2, drop = 0.864065, epochs_drop = 25, momentum =0.9, nestrov = True",0.862,0.8723496,0.04349077,,700,4059.98567,52882
