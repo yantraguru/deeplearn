@@ -12,3 +12,4 @@ ID,Name,Description,Test Accuracy,Out of set Test Accuracy,Test Accuracy Std Dev
 11,Step Decay with momentum,"initial_lrate = 1e-2, drop = 0.864065, epochs_drop = 25, momentum =0.9",0.8681,0.86716115,0.054970756,,700,3965.013071,52882
 12,Adding nestrov ,"initial_lrate = 1e-2, drop = 0.864065, epochs_drop = 25, momentum =0.5, nestrov = True",0.8712,0.8620605,0.051556397,,700,4039.04872,52882
 13,Adding nestrov ,"initial_lrate = 1e-2, drop = 0.864065, epochs_drop = 25, momentum =0.9, nestrov = True",0.862,0.8723496,0.04349077,,700,4059.98567,52882
+14,Adam Learning schedule,if epoch < 50 :  lrate = 1e-3 elif epoch < 250 : lrate = 7e-4 elif epoch < 450 : lrate = 7e-5 else: lrate =  9e-5,0.862,0.859,0.0529,,600,3398.6668,52882
