@@ -168,3 +168,10 @@ class LearningRateFinder:
 		# if the title is not empty, add it to the plot
 		if title != "":
 			plt.title(title)
+            
+	def get_session_stats(self):
+		lrs = self.lrs
+		losses = self.losses
+        
+		return lrs,losses
+        

@@ -17,3 +17,5 @@ ID,Name,Description,Test Accuracy,Out of set Test Accuracy,Test Accuracy Std Dev
 16,Triangular Learning rate2,"MIN_LR = 1e-5, MAX_LR = 1e-2, BATCH_SIZE = 32, STEP_SIZE = 8, CLR_METHOD = ""triangular2""",0.8466,0.8387,0.0558,,600, ,52882, 
 17,Triangular Learning rate2,"MIN_LR = 1e-5, MAX_LR = 1e-2, BATCH_SIZE = 32, STEP_SIZE = 8, CLR_METHOD = ""triangular2"", EPOCHS = 450",0.8528,0.8102,0.0624,,450,2628.8152,52882,
 18,Triangular Learning rate2,"MIN_LR = 6e-4, MAX_LR = 6.6e-3, BATCH_SIZE = 32, STEP_SIZE = 8, CLR_METHOD = ""triangular2"", EPOCHS = 640",0.8436,0.8644,0.0373,,640,3927.0006,52882,
+19,Adding nestrov + Decay ,"initial_lrate = 1e-2, drop = 0.864065, epochs_drop = 25, momentum =0.9, nestrov = True",0.8589,0.86201423,0.04627483,,700,3966.80471539497,52882,
+20,Triangular Learning rate2 + Decay,"MIN_LR = 6e-4, MAX_LR = 6.6e-3, BATCH_SIZE = 32, STEP_SIZE = 8, CLR_METHOD = ""triangular2"", EPOCHS = 640",0.8497,0.846702,0.052257188,,700,3949.26307559013,52882,
